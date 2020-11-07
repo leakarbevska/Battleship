@@ -2,21 +2,22 @@
 
 
 ### Description
-One vs One Battleship Game
+One vs. One Battleship Game
 
 ### Instructions
-Compilation:
+Compilation: \
 `javac -d build -cp src src/battleship/Battleship.java`
 
-Execution:
+Execution: \
 `java -cp build battleship.Battleship`
 
-Packaging:
+Packaging: \
 `jar cfe Battleship.jar battleship.Battleship -C build`
 
-Documentation:
+Documentation: \
 `javadoc -d doc -cp src -subpackages battleship`
 
 
-**IMPORTANT**
-We put "Random" in the field "Nom Joueur" to play against Computer.
+
+**IMPORTANT** \
+We put "Random" in the field "Nom Joueur" to play against Computer
